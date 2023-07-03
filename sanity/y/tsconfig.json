@@ -13,16 +13,8 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
-    "paths": {
-      "@/*": ["./src/*"]
-    }
+    "incremental": true
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "sanity/y/schemas/skill.js", "sanity/y/schemas/schema.ts", "sanity/y/schemas/pageInfo.js"],
+  "include": ["**/*.ts", "**/*.tsx", "schemas/schema.ts", "schemas/pageInfo.js"],
   "exclude": ["node_modules"]
 }
